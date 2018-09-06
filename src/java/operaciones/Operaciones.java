@@ -41,7 +41,15 @@ public class Operaciones extends HttpServlet {
             out.println("<h1>Servlet Operaciones at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
+            
+            public int suma(int numeroUno, int numeroDos)
+        {
+            int resultado = 0;
+            return resultado;
         }
+            
+        }
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
